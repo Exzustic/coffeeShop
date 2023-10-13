@@ -1,0 +1,298 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+section {
+  background: #14110E;
+}
+
+.small-text {
+  color: #C99E71;
+  font-family: "Urbanist", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.selection-heading {
+  color: #FFF;
+  font-family: "Righteous", cursive;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 130%; /* 62.4px */
+  margin-bottom: 36px;
+}
+
+ul {
+  list-style: none;
+}
+
+.headerContainer {
+  width: 1320px;
+  height: 125px;
+  margin: 0 auto;
+}
+
+.list-item__text {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.list-item__text:hover {
+  color: #c99e71;
+}
+
+.menu__list-item:hover {
+  cursor: pointer;
+}
+
+header {
+  background: #1c1814;
+  height: 125px;
+  flex-shrink: 0;
+}
+header .header__menu {
+  padding-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header__menu .menu__list-items {
+  display: flex;
+}
+header .header__menu .menu__list-items .menu__list-item {
+  margin-right: 48px;
+}
+header .header__menu .menu__list-items .menu__list-item:last-child {
+  margin-right: 0;
+}
+
+.start-section {
+  background-image: url("images/Rectangle 12.png");
+  height: 864px;
+  background-position: top, center;
+}
+
+.start-section__heading {
+  padding-top: 147px;
+  margin-bottom: 32px;
+  width: 529px;
+  color: #fff;
+  font-family: "Righteous", cursive;
+  font-size: 4.5rem;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.start-section__text {
+  width: 511px;
+  margin-bottom: 64px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Urbanist", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 180%;
+  text-transform: capitalize;
+}
+
+.start-section__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.start-section__buttons .button__test {
+  width: 202px;
+  height: 70px;
+  padding: 0 auto;
+  align-items: center;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #C99E71;
+  border: 0;
+  cursor: pointer;
+}
+
+.button__start-video {
+  background-color: inherit;
+  border: 0;
+  cursor: pointer;
+}
+
+.reasons__cards {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+.reasons__cards .reasons__text {
+  color: #fff;
+  font-family: "Righteous", cursive;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.reasons__cards .reasons__text .reasons__heading {
+  color: #c99e71;
+  text-transform: uppercase;
+}
+
+.history__flex {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 140px;
+}
+.history__flex .history__photo:first-child {
+  margin-bottom: 32px;
+}
+.history__flex .history__card {
+  width: 510px;
+  height: 635px;
+  flex-shrink: 0;
+  background: #1c1814;
+}
+.history__flex .history__card .history__content {
+  padding: 120px 56px;
+  width: 398px;
+}
+.history__flex .history__card .history__content .history__text {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Urbanist", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 180%; /* 28.8px */
+  text-transform: capitalize;
+}
+
+.product {
+  padding-bottom: 140px;
+}
+.product .small-text, .product .selection-heading {
+  text-align: center;
+}
+.product .selection-heading {
+  margin-bottom: 104px;
+}
+.product .product__cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 96px;
+}
+.product .product__cards .product__img {
+  margin-bottom: 37px;
+}
+.product .product__cards .product__rating {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.product .product__cards .product__rating .small-text {
+  text-transform: uppercase;
+  margin-right: 13px;
+}
+.product .product__cards .product__rating .star {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+.product .product__cards .product__card .product__heading {
+  color: #FFF;
+  font-family: "Righteous", cursive;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+.product .product__cards .product__card .product__price {
+  color: #FFF;
+  font-family: "Urbanist", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+.product .product__button {
+  width: 252px;
+  height: 62px;
+  display: inline-flex;
+  background: #C99E71;
+  padding: 20px 36px;
+  align-items: flex-start;
+  gap: 10px;
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+}
+
+.coffee-machine {
+  padding-bottom: 140px;
+}
+
+.coffee-machine__card {
+  background: #1C1814;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 72px;
+  padding-bottom: 84px;
+  padding-left: 100px;
+}
+.coffee-machine__card .selection-heading {
+  margin-bottom: 36px;
+}
+.coffee-machine__card .coffee-machine__content {
+  width: 535px;
+}
+.coffee-machine__card .coffee-machine__content .coffee-machine__text {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Urbanist", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 180%; /* 28.8px */
+  text-transform: capitalize;
+  opacity: 0.8;
+  margin-bottom: 36px;
+}
+.coffee-machine__card .coffee-machine__content .coffee-machine__button {
+  display: inline-flex;
+  padding: 20px 36px;
+  align-items: flex-start;
+  gap: 10px;
+  background: #C99E71;
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu .small-text, .menu .selection-heading {
+  text-align: center;
+}
+.menu .selection-heading {
+  margin-bottom: 56px;
+}
+.menu .menu__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.menu .menu__cards .menu__card {
+  width: 565px;
+  height: 120px;
+  flex-shrink: 0;
+  border: 1px solid #32323D;
+  margin-bottom: 36px;
+}
+
+/*# sourceMappingURL=style.css.map */

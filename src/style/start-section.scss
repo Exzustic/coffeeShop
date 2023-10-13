@@ -1,0 +1,48 @@
+.start-section {
+	background-image: url("images/Rectangle 12.png");
+	height: 864px;
+	background-position: top,center;
+}
+.start-section__heading {
+	padding-top: 147px;
+	margin-bottom: 32px;
+	width: 529px;
+	color: #fff;
+	font-family: $font-Righteous;
+	font-size: 4.5rem;
+	font-weight: 400;
+	line-height: 130%;
+}
+.start-section__text {
+	width: 511px;
+	margin-bottom: 64px;
+	color: rgba(255, 255, 255, 0.80);
+	font-family: $font-Urbanist;
+	font-size: 1.25rem;
+	font-weight: 500;
+	line-height: 180%;
+	text-transform: capitalize;
+}
+.start-section__buttons {
+	display: flex;
+	justify-content: space-between;
+	.button__test {
+		width: 202px;
+		height: 70px;
+		padding: 0 auto;
+		align-items: center;
+		color: #fff;
+		font-family: $font-Inter;
+		font-size: 1.25rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		background: #C99E71;
+		border: 0;
+		cursor: pointer;
+	}
+}
+.button__start-video {
+	background-color: inherit;
+	border: 0;
+	cursor: pointer;
+}
